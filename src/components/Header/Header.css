@@ -1,0 +1,20 @@
+header {
+  @apply h-16;
+}
+.contenedor {
+  @apply container mx-auto flex justify-between items-center h-full;
+}
+
+.logo {
+  @apply w-2/3;
+}
+
+nav {
+  @apply text-white-primary text-2xl;
+}
+.active {
+  @apply text-purple-primary;
+}
+.desactive {
+  @apply text-white-primary;
+}
