@@ -13,7 +13,6 @@ export const AnimesSlice = ({ slice = [], error = '', loading, title }) => {
       {loading && <span>Cargando ...</span>}
       {error && <span>Ocurrion un error: {error}</span>}
       <div className='flex justify-between gap-4'>
-        {console.log(slice)}
         {slice?.map(el => {
           return (
             <div
@@ -25,7 +24,6 @@ export const AnimesSlice = ({ slice = [], error = '', loading, title }) => {
                 alt=''
                 className='img-card'
               />
-              {console.log(el?.images.webp.image_url)}
               <span className='title-card'>{el.title}</span>
             </div>
           );
