@@ -21,9 +21,23 @@ export const Header = () => {
               <div>
                 <NavLink
                   to={'/'}
-                  className={isActive => (isActive ? 'active' : 'desactive')}
+                  className={({ isActive }) =>
+                    isActive ? 'active' : 'desactive'
+                  }
                 >
                   Anime
+                </NavLink>
+              </div>
+            </li>
+            <li>
+              <div>
+                <NavLink
+                  to={'/anime-top'}
+                  className={({ isActive }) =>
+                    isActive ? 'active' : 'desactive'
+                  }
+                >
+                  Top Anime
                 </NavLink>
               </div>
             </li>

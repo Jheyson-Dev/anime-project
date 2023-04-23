@@ -1,0 +1,6 @@
+.active-navigation {
+  @apply bg-purple-primary;
+}
+.link-navigation {
+  @apply px-1 font-semibold;
+}

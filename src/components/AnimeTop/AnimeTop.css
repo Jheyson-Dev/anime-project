@@ -1,0 +1,9 @@
+.border-table {
+  @apply border-[1px] border-black-primary;
+}
+.border-table-item {
+  @apply border-x-[1px] border-black-primary py-2 group-hover:bg-black-primary group-hover:border-black-secondary cursor-pointer;
+}
+.item-table-center {
+  @apply flex items-center justify-center;
+}

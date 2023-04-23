@@ -1,5 +1,5 @@
 .container-card {
-  @apply border-white border-2 rounded-xl h-80 relative cursor-pointer;
+  @apply border-white border-2 rounded-xl h-80 relative cursor-pointer hover:border-purple-primary;
 }
 .img-card {
   @apply object-cover h-full rounded-xl group-hover:opacity-10;
