@@ -1,0 +1,9 @@
+.container-card {
+  @apply border-white border-2 rounded-xl h-80 relative cursor-pointer;
+}
+.img-card {
+  @apply object-cover h-full rounded-xl group-hover:opacity-10;
+}
+.title-card {
+  @apply absolute top-[50%] left-[50%] translate-x-[-50%]  translate-y-[-50%] hidden group-hover:block transition-[display] text-lg font-semibold text-center;
+}
