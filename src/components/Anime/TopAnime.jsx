@@ -10,12 +10,11 @@ export const TopAnime = () => {
 
   return (
     <div>
-      {console.log(sliceTops)}
       <AnimesSlice
         slice={sliceTops}
         loading={loading}
         error={error}
-        title={"Tops Animes"}
+        title={'Tops Animes'}
       />
     </div>
   );
